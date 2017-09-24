@@ -1,20 +1,15 @@
 ﻿# Screenshot Companion
 
-###### by The Topicbird - www.thetopicbird.com
+With this editor extension you can take screenshots inside the Unity Editor and projects built with Unity. If you are a developer, you should help make it even more useful by forking the project on [Github](https://github.com/Pfannkuchen/ScreenshotCompanion) so everyone can take great screenshots with ease.
 
-### With this script you can take screenshots inside the Unity Editor. 
-
----
 
 ## Installation
-This folder simple needs to be placed inside your Unity project.
+This folder simple needs to be placed inside your Unity project like this:
+*YourUnityProject __/Assets/TheTopicbirdTools/ScreenshotCreator/__ ThisTool*.
 
-An example for this would be *YourUnityProject __/Assets/TheTopicbirdTools/ScreenshotCreator/__ contents*.
-
----
 
 ## Instructions
-1. To take screenshots, simply drop the Prefab *ScreenshotCreatorPrefab* to your Scene, add the Script *ScreenshotCreator* to a GameObject in your Scene or open a new Editor Window by clicking on the Menu Item "Window" and then *Screenshot Creator*.
+1. Taking screenshots is easy, just drop the Prefab *ScreenshotCreatorPrefab* into your Scene, add the Script *ScreenshotCreator* to a GameObject in your Scene or open a new Editor Window by clicking on the Menu Item "Window" and then *Screenshot Creator*.
 
 2. The Settings tab can be expanded by pressing *TOGGLE SETTINGS*. This lets you set all the important options of your screenshots:
 
@@ -36,11 +31,8 @@ An example for this would be *YourUnityProject __/Assets/TheTopicbirdTools/Scree
 
 4. You can delete a Camera slot by pressing the respective red *X* button. The delete button will ask you if you are sure and you have to click the button a second time consecutive.
 
----
 
-We are working on this in our free time, so if you want to support us you can get one of our other assets. ♥ 
+## Credits
+We are working on this in our free time, so if you want to support us you can get one of our assets. ♥
 
 The Topicbird at the [Assetstore](http://u3d.as/gBa).
-
-For any feedback, please contact us at talk@thetopicbird.com. 
-If you like this tool, feel free to leave a comment. We appreciate it :) 
