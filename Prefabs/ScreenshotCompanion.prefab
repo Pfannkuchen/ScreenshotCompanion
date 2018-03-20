@@ -16,12 +16,12 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 4000012850680594}
-  - 114: {fileID: 114000010742529126}
+  - component: {fileID: 4000012850680594}
+  - component: {fileID: 114000010742529126}
   m_Layer: 0
-  m_Name: ScreenshotCreatorPrefab
+  m_Name: ScreenshotCompanion
   m_TagString: Untagged
   m_Icon: {fileID: -304785387049774780, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -36,10 +36,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &114000010742529126
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51,24 +51,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d34f3be723b7d574b88248c5ed72fdaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  signatureColor: {r: 1, g: 0, b: 0.5, a: 1}
   list:
   - cam: {fileID: 0}
     deleteQuestion: 0
     hotkey: 0
+  settings:
+    signatureColor: {r: 1, g: 0, b: 0.5, a: 1}
+    customFileName: 
+    includeProject: 1
+    includeCamera: 1
+    includeDate: 1
+    includeResolution: 1
+    includeCounter: 1
+    counter: 0
+    fileType: 0
+    applicationPath: 0
+    customDirectoryName: 
+    captureMethod: 0
+    singleCamera: 0
+    renderSizeMultiplier: 1
+    captureSizeMultiplier: 1
+    cutoutPosition: {x: 0, y: 0}
+    cutoutSize: {x: 0, y: 0}
   foldoutSettings: 1
-  customName: 
-  customDirectory: 
   lastCamID: 0
   lastCam: {fileID: 0}
-  includeCamName: 1
-  includeDate: 1
-  includeResolution: 1
-  fileType: 0
-  captureMethod: 0
-  singleCamera: 0
-  renderSizeMultiplier: 1
-  captureSizeMultiplier: 1
-  cutoutPosition: {x: 0, y: 0}
-  cutoutSize: {x: 0, y: 0}
-  applicationPath: 0
